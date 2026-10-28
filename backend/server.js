@@ -1,4 +1,6 @@
-import express from 'express';
+// ==========================================
+// Movie Watchlist Manager - REST API Server
+// ==========================================import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
