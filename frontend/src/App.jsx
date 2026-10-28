@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_BASE = 'http://localhost:5000/api/movies';
-
+const API_BASE = 'https://movie-watchlist-api-wzgy.onrender.com/api/movies';
 export default function App() {
   const [movies, setMovies] = useState([]);
   const [stats, setStats] = useState(null);
